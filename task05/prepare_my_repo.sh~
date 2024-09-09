@@ -1,0 +1,5 @@
+#!/bin/sh -x
+read varname
+blih -u paul.czaplinski@epitech.eu repository create $varname
+blih -u paul.czaplinski@epitech.eu repository setacl $varname ramassage-tek r
+blih -u paul.czaplinski@epitech.eu repository getacl $varname
